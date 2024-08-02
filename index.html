@@ -4,74 +4,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
 
 <body>
-    <header>
-        <h1>Aman</h1>
-        <p>Web Developer | Designer | Quick Learner</p>
-    </header>
 
-    <main>
-        <section class="container" id="about">
-            <img src="future.jpg" alt="Your Photo" class="profile-pic">
-            <div class="about-text">
-                <h2>About Me</h2>
-                <p>I am a dynamic and driven second-year college student. With a passion for innovation and a dedication
-                    to excellence, I am committed to expanding my knowledge and skills in the ever-evolving fields of
-                    electronics and computer science.</p>
+    <div class="Titlebar">
+        <a href="#home">
+            <i class="fa-solid fa-house"></i>
+            Home
+        </a>
+
+        <a href="#about" class="About">
+            <i class="fa-solid fa-address-card"></i>
+            About
+        </a>
+
+        <a href="#project">
+            <i class="fa-solid fa-bars-progress"></i>
+            Projects
+        </a>
+
+        <a href="#contact">
+            <i class="fa-solid fa-id-badge"></i>
+            Contact
+        </a>
+
+        <a class="cv-link" href="./assets/CV.pdf">Download CV</a>
+    </div>
+
+    <div id="home" class="Content">
+        <div class="Left">
+            <p>I am <b>Aman</b>, a software and web developer.</p>
+        </div>
+        <div class="Right">
+            <img src="./assets/profile.png" alt="Image">
+        </div>
+    </div>
+
+    <div id="about" class="about">
+        <h3>About</h3>
+        <div class="self">
+            <p class="ri">
+            <div class="social">
+                <a href="https://www.instagram.com" target="_blank" style="text-decoration:none">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" style="text-decoration:none">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
             </div>
-        </section>
+            </p>
+            <p class="le">As a student deeply engrossed in the world of web development, I'm on a quest to sculpt
+                digital wonders that captivate and inspire. My portfolio stands as a testament to my dedication to
+                mastering the intricacies of web design and development. From crafting seamless user experiences to
+                delving into the backend intricacies, I'm fueled by a relentless pursuit of innovation and excellence.
+            </p>
+        </div>
 
-        <section class="container" id="skills">
-            <h2>Skills and Languages</h2>
-            <ul>
-                <section class="c--">
-                    <li><img src="c.jpg" alt="C" width="20"> C <src>
-                    </li>
-                    <li><img src="Python.jpg" alt=" Python" width="20"> Python <src>
-                    </li>
-                    <li><img src="html.jpg" alt=" Html " width="20">Html</li>
-            </ul>
+    </div>
 
-        </section>
+    <div class="Skill">
+        <h3>My Skills</h3>
+        <div class="Upper">
+            <img src="./assets/html.png" alt="HTML">
+            <img src="./assets/CSS.png" alt="CSS">
+            <img src="./assets/java.svg" alt="Java">
+            <img src="./assets/Python.svg" alt="Python">
+        </div>
+        <div class="Lower">
+            <img src="./assets/sol.jpg" alt="Solidity">
+            <img src="./assets/c.svg" alt="C">
+            <img src="./assets/image.png" alt="GitHub">
+            <img src="./assets/VsCode.png" alt="VsCode">
+        </div>
+    </div>
 
-        <section class="container" id="projects">
-            <h2>Projects</h2>
-            <div class="project-container">
-                <div class="project">
-                    <h3>Landing Page </h3>
-                    <img src="project1.jpg" alt="Project 1 Image">
-                    <p> In this project i have made a Landing Page using Html and css for a Flower Shop</p>
-                </div>
-                <div class="project">
-                    <h3> Calculator </h3>
-                    <img src="project2.jpg" alt="Project 2 Image">
-                    <p>In this i have made a calculator using Html css and js.</p>
+    <div class="Project" id="project">
+        <h3>My Projects</h3>
+        <p>Design and Develop Based</p>
+        <div class="pr">
+            <div class="p">
+                <h5>Landing Page</h5>
+                <img src="./assets/Page.png" alt="Landing Page">
+                <div class="overlay">
+                    <p>Designed a responsive and visually engaging landing page using HTML, CSS, and JavaScript,
+                        featuring smooth animations and interactive elements to enhance user engagement and conversion
+                        rates.</p>
+                    <a target=”_blank” href="https://github.com/asingh0506/Codsoft---landind-Page">
+                        <i class="fa-brands fa-github"></i>
+                        View Code</a>
                 </div>
             </div>
-        </section>
 
-        <section class="container" id="resume">
-            <h2>Resume</h2>
-            <p>Download my resume: <a href="resume.pdf">Resume.pdf</a></p>
-        </section>
+            <div class="p">
+                <h5>Calculator</h5>
+                <img src="./assets/Calc.png" alt="Calculator">
+                <div class="overlay">
+                    <p>Developed a user-friendly calculator application using JavaScript, HTML, and CSS, capable of
+                        performing basic arithmetic operations with a sleek and intuitive interface for efficient
+                        usability.</p>
+                    <a target=”_blank” href="https://github.com/asingh0506/Codsoft---Calculator">
+                        <i class="fa-brands fa-github"></i>
+                        View Code</a>
+                </div>
+            </div>
 
-        <section class="container" id="contact">
-            <h2>Contact</h2>
-            <ul>
-                <li><a href="https://www.linkedin.com/"><img src="li.jpg" alt="LinkedIn" width="20">LinkedIn</a></li>
-                <li><a href="asingh05048@mail.com"><img src="mail.jpg" alt="Email" width="20">Email</a></li>
-                <li>Phone: (555) 555-5555</li>
-            </ul>
-        </section>
-    </main>
+            <div class="p">
+                <h5>Portfolio</h5>
+                <img src="./assets/Port.png" alt="Portfolio">
+                <div class="overlay">
+                    <p>Created a personal portfolio website showcasing my projects and skills, leveraging HTML, CSS, and
+                        to provide an elegant and professional online presence with sections for my work,
+                        skills, and contact information.</p>
+                    <a target=”_blank” href="https://github.com/asingh0506/Codsoft--Portfolio">
+                        <i class="fa-brands fa-github"></i>
+                        View Code</a>
+                </div>
+            </div>
 
-    <footer>
-        <p>&copy; 2024.Aman All Rights Reserved.</p>
-    </footer>
+            <div class="p">
+                <h5>BlockChain</h5>
+                <img src="./assets/block.png" alt="BlockChain">
+                <div class="overlay">
+                    <p>Implemented a decentralized application (dApp) on the Ethereum blockchain using Solidity and
+                        Web3.js, enabling secure and transparent transactions with a user-friendly interface for
+                        interacting with smart contracts.</p>
+                    <a target=”_blank” href="file:///C:\Users\KIIT\Desktop\CODES\Practice">
+                        <i class="fa-brands fa-github"></i>
+                        View Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="Contact">
+        <h3>Contact</h3>
+        <div class="Detail">
+            <div class="Con">
+                <i class="fa-solid fa-envelope"></i>
+                asingh05048@gmail.com
+            </div>
+
+            <div class="Con">
+                <i class="fa-solid fa-phone"></i>
+                8862881301
+            </div>
+
+            <div class="Con">
+                <i class="fa-solid fa-location-dot"></i>
+                Aurangabad,Bihar
+            </div>
+        </div>
+    </div>
+
+    <div class="Footer">
+        <p>© 2024 Aman . All rights reserved.</p>
+    </div>
+
 </body>
 
 </html>
